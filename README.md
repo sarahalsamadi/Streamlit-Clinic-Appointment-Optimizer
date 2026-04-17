@@ -1,5 +1,4 @@
 # Streamlit Clinic Appointment Optimizer
-# 🏥 Smart Clinic Appointment Optimizer
 
 نظام ذكي لجدولة مواعيد العيادات والمستشفيات، مصمم لتحسين توزيع المرضى على الأطباء والغرف المتاحة بناءً على الأولوية ونوع الحالة باستخدام خوارزميات الجدولة الذكية.
 
@@ -26,5 +25,5 @@
 3.قم بتشغيل التطبيق:
 
    ```bash
-   streamlit run project.py
+    streamlit run project.py
   
