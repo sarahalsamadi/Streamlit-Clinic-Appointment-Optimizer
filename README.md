@@ -1,2 +1,30 @@
-# Streamlit-Clinic-Appointment-Optimizer
-"A smart medical appointment scheduling application built with Python and Streamlit, utilizing a 'Best-Fit Slot' algorithm to prioritize emergency cases and optimize doctor/room allocation."
+# Streamlit Clinic Appointment Optimizer
+# 🏥 Smart Clinic Appointment Optimizer
+
+نظام ذكي لجدولة مواعيد العيادات والمستشفيات، مصمم لتحسين توزيع المرضى على الأطباء والغرف المتاحة بناءً على الأولوية ونوع الحالة باستخدام خوارزميات الجدولة الذكية.
+
+## 🌟 المميزات (Features)
+
+- **جدولة مبنية على الأولوية**: ترتيب تلقائي للحالات الطارئة (Emergency) مع مراعاة الإحالات الطبية.
+- **خوارزمية Best-Fit Slot**: البحث عن أفضل وقت متاح لكل مريض لضمان عدم وجود تعارض (Conflict-Free).
+- **إدارة الموارد**: تخصيص تلقائي لكل من الأطباء (Doctors) والغرف (Rooms) في آن واحد.
+- **واجهة تفاعلية**: لوحة تحكم سهلة الاستخدام مبنية بواسطة **Streamlit** لإدخال بيانات المرضى وعرض المواعيد.
+- **دعم الحالات المعقدة**: التعامل مع مدة الفحص المتغيرة، عمر المريض، وحالات الإحالة من مستشفيات أخرى.
+
+## 🛠 التقنيات المستخدمة (Tech Stack)
+
+- **Python**: لغة البرمجة الأساسية.
+- **Streamlit**: لبناء واجهة المستخدم الويب (Web UI).
+- **Collections (deque)**: لإدارة طوابير المرضى بكفاءة عالية.
+
+## 🚀 كيفية التشغيل (Installation & Setup)
+
+1. قم بتحميل المشروع أو عمل `clone` للمستودع.
+2. قم بتثبيت المكتبات اللازمة باستخدام ملف `requirements.txt`:
+   ```bash
+   pip install -r requirements.txt
+3.قم بتشغيل التطبيق:
+
+   ```bash
+   streamlit run project.py
+  
